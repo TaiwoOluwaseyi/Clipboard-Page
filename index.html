@@ -8,7 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Clipboard Landing Page</title>
   </head>
@@ -28,10 +28,19 @@
         </p>
 
         <!-- Button container -->
-        <div class="flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4">
-          <a href="#" class="p-4 px-8 rounded-full shadow-lg bg-green-900 duration-200 hover:opacity-80">Download For IOS</a>
-          <a href="#" class="p-4 px-8 rounded-full shadow-lg bg-indigo-500 duration-200 hover:opacity-80">Download For Mac</a>
-
+        <div
+          class="flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4"
+        >
+          <a
+            href="#"
+            class="p-4 px-8 rounded-full shadow-lg bg-green-900 duration-200 hover:opacity-80"
+            >Download For IOS</a
+          >
+          <a
+            href="#"
+            class="p-4 px-8 rounded-full shadow-lg bg-indigo-500 duration-200 hover:opacity-80"
+            >Download For Mac</a
+          >
         </div>
       </div>
     </section>
@@ -39,10 +48,37 @@
     <!-- Snippets section -->
     <section id="snippets">
       <div class="max-w-6xl mx-auto text-center my-20 px-10">
-         <h3 class="mb-8 text-4xl font-bold text-gray-800 md:text-5xl">Keep Track Of Your Snippets</h3>
-         <p class="max-w-3xl mx-auto mb-24 text-xl text-center text-gray-400 leading-9">Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and IOS apps will help you organize everthing</p>
+        <h3 class="mb-8 text-4xl font-bold text-gray-800 md:text-5xl">
+          Keep Track Of Your Snippets
+        </h3>
+        <p
+          class="max-w-3xl mx-auto mb-24 text-xl text-center text-gray-400 leading-9"
+        >
+          Clipboard instantly stores any item you copy in the cloud, meaning you
+          can access your snippets immediately on all your devices. Our Mac and
+          IOS apps will help you organize everthing
+        </p>
       </div>
+    </section>
 
+    <!-- Features -->
+    <section id="features">
+      <div class="max-w-6xl mx-auto text-center px-10 my-20">
+        <div class="relative flex flex-col md:flex-row md:space-x-32">
+          <!-- Image -->
+          <div class="md:w-1/2">
+           <img src="./images/image-computer.png" alt="" class="md:absolute top-0 right[50%]"> 
+          </div>
+
+          <!-- Items container-->
+          <div class="">
+             <!-- Item 1 -->
+             <div>
+              <h5 class="mb-2 text-2xl font-bold">Quick Search</h5>
+             </div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
